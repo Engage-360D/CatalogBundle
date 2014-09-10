@@ -1,0 +1,25 @@
+{
+    "name": "engage360d/catalog-bundle",
+    "type": "symfony-bundle",
+    "description": "Engage360dCatalogBundle",
+    "license": "MIT",
+    "keywords": ["Engage", "360D", "Catalog"],
+    "homepage": "http://github.com/engage-360d",
+
+    "authors": [
+        {
+            "name": "Alexey Ryzhkov",
+            "email": "alioch@yandex.ru"
+        }
+    ],
+
+    "autoload": {
+        "psr-0": {
+            "Engage360d\\Bundle\\CatalogBundle": ""
+        }
+    },
+
+    "minimum-stability": "dev",
+
+    "target-dir": "Engage360d/Bundle/CatalogBundle"
+}

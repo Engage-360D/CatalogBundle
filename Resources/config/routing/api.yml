@@ -1,0 +1,7 @@
+engage360_api_catalogs:
+    type:     rest
+    resource: Engage360d\Bundle\CatalogBundle\Controller\Api\CatalogController
+
+engage360_api_records:
+    type:     rest
+    resource: Engage360d\Bundle\CatalogBundle\Controller\Api\RecordController

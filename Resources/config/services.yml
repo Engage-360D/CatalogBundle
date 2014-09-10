@@ -1,0 +1,14 @@
+parameters:
+
+services:
+#    engage360d_catalog.catalog.form.type:
+#        # Not using parameters here because
+#        class: Engage360d\Bundle\CatalogBundle\From\Type\CatalogFormType
+#        tags:
+#            - { name: form.type }
+#
+#    engage360d_catalog.record.form.type:
+#            # Not using parameters here because
+#            class: Engage360d\Bundle\CatalogBundle\From\Type\CatalogFormType
+#            tags:
+#                - { name: form.type }

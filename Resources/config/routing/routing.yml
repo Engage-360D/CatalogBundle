@@ -1,0 +1,7 @@
+engage360d_catalog_create_catalog:
+    path: /catalog/add
+    defaults: { _controller: Engage360dCatalogBundle:Catalog:add }
+
+engage360d_catalog_create_record:
+    path: /record/add
+    defaults: { _controller: Engage360dCatalogBundle:Record:add }

@@ -1,0 +1,21 @@
+Engage360d\Bundle\CatalogBundle\Entity\Catalog:
+    properties:
+        id:
+          - NotBlank: ~
+          - Regex:
+              pattern: "/^[0-9a-zA-Z_\-]+$/"
+              message: "Invalid catalog id"
+        name:
+            - NotBlank: ~
+            - Length:
+                max: 255
+
+Engage360d\Bundle\CatalogBundle\Entity\Record:
+    properties:
+        data:
+            - NotBlank: ~
+            - Length:
+                max: 255
+        catalog:
+            - NotBlank: ~
+            - Valid: ~
